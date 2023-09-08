@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slack-user {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+h2{
+    font-size: 24px;
+
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #333;
+}
+
+.current-info {
+    margin-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+p[data-testid="currentUTCTime"] {
+    font-family: 'Courier New', monospace;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.track {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+p[data-testid="githubURL"] a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p[data-testid="githubURL"] a:hover {
+    text-decoration: underline;
+}
+
+
